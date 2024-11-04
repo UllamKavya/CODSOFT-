@@ -1,0 +1,29 @@
+#design a simple calculator with basic arithmetic operation
+#perform the calcution and display the result
+class Calculator:
+    def addition(self):
+        print(a+b)
+    def subtraction(self):
+        print(a-b)
+    def multiplication(self):
+        print(a*b)
+    def division(self):
+        print(a/b)
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+obj=Calculator()
+print("1.Addition")
+print("2.subtraction")
+print("3.multiplication")
+print("4.division")
+choice=int(input("enter your choice:"))
+if choice==1:
+    print(obj.addition())
+elif choice==2:
+    print(obj.subtraction())
+elif choice==3:
+    print(obj.multiplication())
+elif choice==1:
+    print(obj.division())
+else:
+    print("invalid choice")
